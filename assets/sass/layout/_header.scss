@@ -67,7 +67,8 @@
 			border-top-width: _size(border-width);
 			border-bottom-width: _size(border-width);
 			max-width: 100%;
-
+			
+			
 			.inner {
 				@include vendor('transition', (
 					'max-height #{_duration(intro)} ease',
@@ -84,6 +85,7 @@
 				}
 			}
 
+			
 			p {
 				text-transform: uppercase;
 				letter-spacing: _font(letter-spacing);
